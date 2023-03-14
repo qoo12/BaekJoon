@@ -21,7 +21,9 @@ def dict_sorting(arr) :
                 arr[b-1], arr[b] = arr[b], arr[b-1]
                 b -= 1
             j += 1
-
+'''
+잘못된 알고리즘으로 time out이 나와서 다른 코드를 짤 것임
+'''
 input_cnt = int(input())
 sorting_list = []
 
